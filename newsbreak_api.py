@@ -18,14 +18,15 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class ArticleConfig:
+    # Default values
     title: str = "Draft content..."
     author_name: str = "Temp author"
     author_url: str = "harvard.edu"
     article_credit: str = "Temp byline..."
     image_link: str = "https://i.prt.news/5eb5d392dc405ff764223dd90d0b1ffc.jpg" # doesn't work without this for some reason
     image_credit: str = "testing_credit!"
-    content_file: str = "./fake-content.txt"
-    image_file: str = "./crimson.jpg"
+    content_file: str = "./example_article_content.txt"
+    image_file: str = "./example_image.jpg"
 
 def parse_args() -> ArticleConfig:
     parser = argparse.ArgumentParser(description='NewsBreak API Article Publisher')

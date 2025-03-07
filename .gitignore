@@ -167,5 +167,13 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+<<<<<<< HEAD
 # PyPI configuration file
 .pypirc
+=======
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+>>>>>>> 361c6c0 (Initial commit)

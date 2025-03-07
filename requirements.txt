@@ -1,13 +1,11 @@
-Package            Version
------------------- ---------
-certifi            2025.1.31
-charset-normalizer 3.4.1
-dotenv             0.9.9
-idna               3.10
-Markdown           3.7
-pip                24.3.1
-python-dotenv      1.0.1
-requests           2.32.3
-requests-toolbelt  1.0.0
-setuptools         75.6.0
-urllib3            2.3.0
+certifi==2025.1.31
+charset-normalizer==3.4.1
+dotenv==0.9.9
+idna==3.10
+Markdown==3.7
+pip==24.3.1
+python-dotenv==1.0.1
+requests==2.32.3
+requests-toolbelt==1.0.0
+setuptools==75.6.0
+urllib3==2.3.0

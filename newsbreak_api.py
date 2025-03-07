@@ -1,9 +1,9 @@
-from generate_draft import create_draft
-from upload_image import upload_image
-from make_publish import make_publish, PublishError
-from calculate import calculate_nlp
-from put_request import make_put_request
-from config import get_cookies
+from helpers.generate_draft import create_draft
+from helpers.upload_image import upload_image
+from helpers.make_publish import make_publish, PublishError
+from helpers.calculate import calculate_nlp
+from helpers.put_request import make_put_request
+from helpers.config import get_cookies
 import json
 import sys
 import logging
